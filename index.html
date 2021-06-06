@@ -3,170 +3,281 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My resume</title>
+    <title>Valentin Yakubovskyi CV</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
   </head>
+
   <body>
+    <!-- main container -->
+    <div class="main-container">
 
-    <div class="all-background">
-      <!-- main container -->
-      <div>
-        <aside class="sidebar">
-          <img class="my-photo" src="./img/photo.jpg" alt="My photo" />
+      <!-- sidebar -->
+      <aside class="sidebar">
+        <img class="my-photo" src="./img/photo.jpg" alt="Valentin Yakubovskyi photo" />
+        <div class="container">
+          <!-- contacts container -->
+          <div class="contacts-container">
+            <h3 class="contacts-title">Contacts</h3>
+              <ul class="contacts-list">
+                <li class="contacts-item">
+                  <a class="contacts-link" href="tel:380674332705">
+                    <svg width="24" height="24">
+                      <use href="./img/sprite.svg#phone"></use>
+                    </svg>
+                    <span>+38 067 433 27 05</span>
+                  </a>
+                </li>
+                
+                <li class="contacts-item">
+                  <a class="contacts-link" href="mailto:yakvalentin@gmail.com">
+                    <svg width="24" height="24">
+                      <use href="./img/sprite.svg#mail"></use>
+                    </svg>
+                    <span>yakvalentin@gmail.com</span>
+                  </a>
+                </li>
+                
+                <li class="contacts-item">
+                  <a class="contacts-link"
+                    href="https://www.linkedin.com/in/%D0%B2%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD-%D1%8F%D0%BA%D1%83%D0%B1%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-b74ab020b/" target="_blank">
+                    <svg width="24" height="24">
+                      <use href="./img/sprite.svg#linkedin"></use>
+                    </svg>
+                    <span>Valentin Yakubovskyi</span>
+                  </a>
+                </li>
+                
+                <li class="contacts-item">
+                  <a class="contacts-link" href="https://github.com/valentinyak" target="_blank">
+                    <svg width="24" height="24">
+                      <use href="./img/sprite.svg#github"></use>
+                    </svg>
+                    <span>valentinyak</span>
+                  </a>
+                </li>
 
-          <div class="container">
-            <!-- contacts container -->
-              <div class="contacts-container">
-                <h3 class="contacts-title">Contacts</h3>
-                <div>
-                  <span class="CE-span">C:</span>
-                  <a class="contacts-link" href="tel:380951138598"
-                    >+38 095 113 85 98</a
-                  >
-                </div>
+                <li class="contacts-item">
+                  <a class="contacts-link" href="https://www.codewars.com/users/valentinyak" target="_blank">
+                    <svg width="24" height="24">
+                      <use href="./img/sprite.svg#codewars"></use>
+                    </svg>
+                    <span>valentinyak</span>
+                  </a>
+                </li>
 
-                <div>
-                  <span class="CE-span">E:</span>
-                  <a class="contacts-link" href="mailto:chornyiav@gmail.com"
-                    >chornyiav@gmail.com</a
-                  >
-                </div>
-              </div>
-
-              <!-- tech skills container -->
-              <div class="skills-container">
-                  <h3 class="skills-title">Tech Skills</h3>
-                  <ul>
-                    <li class="skills-item"> <span class="white-color">Node.js</li>
-                    <li class="skills-item"> <span class="white-color">React.js</span></li>
-                    <li class="skills-item"> <span class="white-color">JavaScript</span></li>
-                    <li class="skills-item"> <span class="white-color">WebPack</span></li>
-                    <li class="skills-item"> <span class="white-color">GIT</span></li>
-                    <li class="skills-item"> <span class="white-color">CSS3</span></li>
-                    <li class="skills-item"> <span class="white-color">HTML5</span></li>
-                  </ul>
-              </div>
+                <li class="contacts-item">
+                  <a class="contacts-link" href="https://goo.gl/maps/xEbpkrZq42ATibNQ6" target="_blank">
+                    <svg width="24" height="24">
+                      <use href="./img/sprite.svg#location"></use>
+                    </svg>
+                    <span>Vinnytsia, Ukraine</span>
+                  </a>
+                </li>
+              </ul>
           </div>
 
-            <!-- soft skills container -->
-            <div class="skills-container">
-              <h3 class="skills-title">Soft Skills</h3>
+          <!-- tech skills container -->
+          <div class="skills-container">
+              <h3 class="skills-title">Tech Skills</h3>
               <ul>
-                <li class="skills-item"> <span class="white-color">Scrum</span></li>
-                <li class="skills-item"> <span class="white-color">Agile</span></li>
-                <li class="skills-item"> <span class="white-color">GTD</span></li>
-                <li class="skills-item"> <span class="white-color">Teamwork</span></li>
+                <li class="skills-item"> <span class="skills-name">Node.js</li>
+                <li class="skills-item"> <span class="skills-name">React.js</span></li>
+                <li class="skills-item"> <span class="skills-name">Redux</span></li>
+                <li class="skills-item"> <span class="skills-name">JavaScript</span></li>
+                <li class="skills-item"> <span class="skills-name">Mongo DB</span></li>
+                <li class="skills-item"> <span class="skills-name">WebPack, Parcel</span></li>
+                <li class="skills-item"> <span class="skills-name">Git, Github, Netlify</span></li>
+                <li class="skills-item"> <span class="skills-name">CSS3, SCSS</span></li>
+                <li class="skills-item"> <span class="skills-name">HTML5</span></li>
               </ul>
-            </div>
-        </aside>
-      </div>
+          </div>
 
+          <!-- soft skills container -->
+          <div class="skills-container">
+            <h3 class="skills-title">Soft Skills</h3>
+            <ul>
+              <li class="skills-item"> <span class="skills-name">Scrum</span></li>
+              <li class="skills-item"> <span class="skills-name">Agile</span></li>
+              <li class="skills-item"> <span class="skills-name">GTD</span></li>
+              <li class="skills-item"> <span class="skills-name">Teamwork</span></li>
+              <li class="skills-item"> <span class="skills-name">Responsible</span></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      
       <!-- about me container -->
       <div class="about-me">
+
         <!-- about me main info -->
         <div class="info-container">
-          <h2 class="front-end-title">Front-End Developer</h2>
-          <h1 class="anton-chornyi">Valentin Yakubovskiy</h1>
-          <p class="lorem-ipsum1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
+          <h2 class="front-end-title">Front-End (React.js) Developer</h2>
+          <h1 class="my-name">Valentin Yakubovskyi</h1>
+          <p class="summary">
+            Looking for an interesting job as a front-end developer in a good team, where I could use and improve my skills.
+            I'm a fast learner and responsible person, who not afraid to take responsobilities for myself.
           </p>
         </div>
 
         <!-- projects container -->
-        <div>
+        <div class='projects-container'>
           <h3 class="projects-title">Projects</h3>
-            <div class="projects-container">
-              <ol>
-                <li class="projects-item">
-                  <a class="projects-links" href="https://lovecamp.allinsol.com/">
-                    https://lovecamp.allinsol.com
+          <ol class="projects-list">
+            <li class="projects-item">
+              <dl>
+                <dt>
+                  <a class="projects-link" href="https://elenapanasyuk.github.io/group-10-barbershop/" target="_blank">
+                    Barbershop
                   </a>
-                  <span class="dots">.................</span>
-                  <span>[ <span class="type-of-projects-skills"> HTML5, CSS3 </span>]</span>
-                </li>
+                </dt>
+                <dd>
+                  <span>[<span class="projects-skills">Team, HTML5, SCSS, JS, Parcel, Git</span>]</span>
+                </dd>
+              </dl>
+            </li>
 
-                <li class="projects-item">
-                  <a class="projects-links" href="https://cryptohub.goit.ua/">
-                    https://cryptohub.goit.ua
+            <li class="projects-item">
+              <dl>
+                <dt>
+                  <a class="projects-link" href="https://romanvoznyy.github.io/final-project-js/" target="_blank">
+                    Filmoteka
                   </a>
-                  <span class="dots">...........................</span>
-                  <span>[<span class="type-of-projects-skills">JavaScript</span>]</span>
-                </li>
+                </dt>
+                <dd>
+                  <span>[<span class="projects-skills">Team, HTML5, SCSS, JS, Handlebars, REST, Parcel, Git</span>]</span>
+                </dd>
+              </dl>
+            </li>
 
-                <li class="projects-item">
-                  <a class="projects-links" href="https://kidslike.goit.co.ua/">
-                    https://kidslike.goit.co.ua
+            <li class="projects-item">
+              <dl>
+                <dt>
+                  <a class="projects-link" href="https://test-qa.netlify.app/" target="_blank">
+                    QA Test
                   </a>
-                  <span class="dots">...........................</span>
-                  <span>[<span class="type-of-projects-skills">React.js, Node.js</span>]</span>
-                </li>
-              </ol>
-            </div>
+                </dt>
+                <dd>
+                  <span>[<span class="projects-skills">Team, React.js, Node.js, Redux, Mongo DB, REST, WebPack, Git</span>]</span>
+                </dd>
+              </dl>
+            </li>
+
+            <li class="projects-item">
+              <dl>
+                <dt>
+                  <a class="projects-link" href="https://valentinyak.github.io/goit-markup-hw-08/" target="_blank">
+                    Web Studio
+                  </a>
+                </dt>
+                <dd>
+                  <span>[<span class="projects-skills">Own, HTML5, SCSS, Git</span>]</span>
+                </dd>
+              </dl>
+            </li>
+
+            <li class="projects-item">
+              <dl>
+                <dt>
+                  <a class="projects-link" href="https://valentinyak-goit-react-hw-05-movies.netlify.app/" target="_blank">
+                    Movies
+                  </a>
+                </dt>
+                <dd>
+                  <span>[<span class="projects-skills">Own, React.js, REST, Git</span>]</span>
+                </dd>
+              </dl>
+            </li>
+
+            <li class="projects-item">
+              <dl>
+                <dt>
+                  <a class="projects-link" href="https://valentinyak.github.io/goit-react-hw-08-phonebook/" target="_blank">
+                    Phonebook
+                  </a>
+                </dt>
+                <dd>
+                  <span>[<span class="projects-skills">Own, React.js, Redux, Git</span>]</span>
+                </dd>
+              </dl>
+            </li>
+          </ol>
         </div>
 
         <!-- work experience container -->
-        <div>
-          <h3 class="work-experience">Work Experience</h3>
+        <div class='work-container'>
+          <h3 class="work-title">Work Experience</h3>
 
           <!-- company1 container-->
-          <div>
-            <h4 class="company-title">Front-End Developer <span class="orange-word">Freelance</span></h4>
-            <span class="working-time">September 2019 - up to now <span class="palka">|</span> Ukraine</span>
-            <ul class="company-list">
-              <li class="company-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </li>
-              <li class="company-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li class="company-item">Risus commodo viverra maecenas.</li>
-              <li class="company-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </li>
+          <div class='company-container'>
+            <h4 class="work-position">CFO <span class="company-name">Group of companies</span></h4>
+            <span class="working-time">September 2020 - up to now </span>
+            <span class="working-location">Ukraine</span> 
+            <ul class="responsibilities-list">
+              <li class="responsibility-item">Organization of the work of the financial and accounting departments.</li>
+              <li class="responsibility-item">Preparation and submission of financial statements.</li>
+              <li class="responsibility-item">Control over the implementation of the company's budget.</li>
             </ul>
           </div>
 
           <!-- company2 container-->
-          <div>
-            <h4 class="company-title">Manager <span class="orange-word">Roga & Kopyta New</span></h4>
-            <span class="working-time">March 2015 - October 2018 <span class="palka">|</span> Ukraine</span>
-            <ul class="company-list">
-              <li class="company-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod labore et dolore magna aliqua.
-              </li>
-              <li class="company-item">Quis ipsum suspendisse ultrices gravida.</li>
-              <li class="company-item">Risus commodo viverra maecenas.</li>
-            </ul>
-          </div>
-
-          <!-- company3 container-->
-          <div>
-            <h4 class="company-title">Manager <span class="orange-word">Roga & Kopyta LLC</span></h4>
-            <span class="working-time">June 2014 - February 2015 <span class="palka">|</span> Ukraine</span>
-            <ul class="company-list">
-              <li class="company-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </li>
-              <li class="company-item">Quis ipsum suspendisse ultrices gravida.</li>
-              <li class="company-item">Risus commodo viverra maecenas.</li>
+          <div class='company-container'>
+            <h4 class="work-position">Financial specialist <span class="company-name">Group of companies</span></h4>
+            <span class="working-time">August 2007 - September 2020 </span>
+            <span class="working-location">Ukraine</span>
+            <ul class="responsibilities-list">
+              <li class="responsibility-item">Preparation and submission of financial statements.</li>
+              <li class="responsibility-item">Control over the implementation of the company's budget.</li>
+              <li class="responsibility-item">Working with banks (deposits, loans, service).</li>
             </ul>
           </div>
         </div>
 
         <!-- education container -->
-        <div>
+        <div class='education-container'>
           <h3 class="education-title">Education</h3>
-          <h4 class="education-name1">Kharkiv National University of Radioelectronics</h4>
-          <span class="Management">Management</span><br />
-          <span class="working-time">Septermber 2009 - June 2014 | Ukraine</span>
+
+          <!-- university1 container-->
+          <div class='university-container'>
+            <h4 class="university-name">GO IT</h4>
+            <span class="position-name">Full Stack Developer</span><br />
+            <span class="working-time">April 2020 - April 2021 </span>
+            <span class="working-location">Ukraine</span>
+          </div>
+
+          <!-- university2 container-->
+          <div class='university-container'>
+            <h4 class="university-name">QATestLab</h4>
+            <span class="position-name">The Fundamentals of Software Testing</span><br />
+            <span class="working-time">March 2019 - April 2019 </span>
+            <span class="working-location">Ukraine</span>
+          </div>
+
+          <!-- university3 container-->
+          <div class='university-container'>
+            <h4 class="university-name">Geek Brains</h4>
+            <span class="position-name">Basics of programming</span><br />
+            <span class="working-time">November 2015 - December 2015 </span>
+            <span class="working-location">Ukraine</span>
+          </div>
+
+          <!-- university4 container-->
+          <div class='university-container'>
+            <h4 class="university-name">Vinnytsia Institute of Economic of Ternopil National Economic University</h4>
+            <span class="position-name">Accounting and Auditing</span><br />
+            <span class="working-time">Septermber 2007 - July 2010 </span>
+            <span class="working-location">Ukraine</span>
+          </div>
+        </div>
+
+        <!-- certificates container-->
+        <div class='certificates-container'>
+          <embed src="./QATestLab.pdf" width="282" height="193" type="application/pdf">
+          <embed src="./GeekBrains.pdf" width="282" height="194" type="application/pdf">
+          <embed src="./Go_IT.pdf" width="200" height="282" type="application/pdf">
         </div>
       </div>
     </div>
