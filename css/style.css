@@ -21,25 +21,6 @@ body {
   color: #000000;
 }
 
-dt {
-  float: left;
-  width: 180px;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-dt:after {
-  content: ' . . . . . . . . . . . . . . . . . . . . . . . .';
-  color: var(--primery-text-color);
-  font-weight: 400;
-}
-
-dd {
-  float: left;
-  width: 450px;
-  overflow: hidden;
-}
-
 .main-container {
   display: flex;
   max-width: 1200px;
@@ -48,23 +29,27 @@ dd {
   background-color: var(--primery-color);
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
+
 .sidebar {
-  width: 370px;
-  min-height: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 270px;
   padding: 40px 0px;
 
   background-color: #1e2939;
 }
+
 .my-photo {
-  width: 370px;
+  width: 200px;
+  height: 200px;
   margin-bottom: 60px;
+
+  border-radius: 50%;
 }
+
 .about-me {
   padding: 80px 90px;
-}
-.contacts-container,
-.skills-container {
-  margin-left: 40px;
 }
 
 .contacts-container,
@@ -80,6 +65,7 @@ dd {
   font-size: 22px;
   line-height: 1.09;
 }
+
 .contacts-link {
   display: flex;
 
@@ -109,9 +95,11 @@ dd {
 .skills-name {
   color: var(--contacts-color);
 }
+
 .front-end-title {
   margin-bottom: 20px;
 }
+
 .my-name {
   margin-bottom: 20px;
 
@@ -122,12 +110,14 @@ dd {
   color: var(--primery-text-color);
   font-weight: 400;
 }
+
 .info-container {
   margin-bottom: 65px;
 }
+
 .projects-container,
 .work-container,
-.education-container {
+.education-container:not(:last-child) {
   margin-bottom: 50px;
 }
 
@@ -139,32 +129,43 @@ dd {
   font-size: 22px;
   line-height: 1.09;
 }
+
 .projects-list {
   margin-left: 17px;
 }
+
+.projects-list:not(:last-child) {
+  margin-bottom: 50px;
+}
+
 .projects-item {
   color: var(--primery-text-color);
 }
 
 .projects-link {
-  color: var(--primery-text-color);
-  font-weight: 400;
+  color: #0968ba;
+  font-size: 16px;
 }
 
-.projects-skills {
-  color: var(--primery-text-color);
+.projects-info-list {
+  margin-left: 10px;
+}
+
+.projects-info-span {
   font-weight: 400;
 }
 
 .company-container:not(:last-child) {
   margin-bottom: 30px;
 }
+
 .work-position {
   margin-bottom: 15px;
 
   font-size: 16px;
   line-height: 1.5;
 }
+
 .company-name {
   color: var(--secondary-color);
 }
@@ -178,6 +179,7 @@ dd {
   font-weight: 400;
   line-height: 2;
 }
+
 .working-time::after {
   content: '|';
 }
@@ -198,13 +200,14 @@ dd {
   font-size: 16px;
   line-height: 1.5;
 }
+
 .position-name {
   margin-top: 15px;
 }
 
-.certificates-container {
+/* .certificates-container {
   height: 550px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
+} */
